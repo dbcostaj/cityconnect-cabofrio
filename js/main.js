@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // 4. FUNÇÃO DE CLIMA (API gratuita OpenWeatherMap)
   async function buscarClimaCaboFrio() {
     // Você precisa cadastrar uma chave gratuita em openweathermap.org
-    const chave = 'SUA_CHAVE_AQUI';  // Substitua depois
+    const chave = 'b14179c13f4f64bc6b5ece445ecd7dca';  // Substitua depois
     const cidade = 'Cabo Frio,BR';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${cidade}&units=metric&lang=pt_br&appid=${chave}`;
     try {
