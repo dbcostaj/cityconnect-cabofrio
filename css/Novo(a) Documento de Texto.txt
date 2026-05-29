@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background: #f0f7ff;
+  color: #1e2a3e;
+  line-height: 1.5;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.logo {
+  max-width: 180px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.25rem;
+}
+
+.subtitulo {
+  color: #2c7da0;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.grade-perfis {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.grade-perfis button {
+  flex: 1 0 calc(33% - 0.75rem);
+  background: #2c7da0;
+  border: none;
+  color: white;
+  padding: 12px 8px;
+  border-radius: 60px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.grade-perfis button:hover {
+  background: #1f5068;
+  transform: scale(1.02);
+}
+
+.hidden {
+  display: none;
+}
+
+.card {
+  background: #f8f9fc;
+  border-radius: 1.5rem;
+  padding: 1.2rem;
+  margin: 1.2rem 0;
+  border-left: 5px solid #2c7da0;
+}
+
+.card h3 {
+  margin-bottom: 0.75rem;
+  color: #0b3b4f;
+}
+
+.card ul {
+  padding-left: 1.2rem;
+}
+
+.card li {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  border-top: 1px solid #cbd5e1;
+}
+
+a {
+  color: #2c7da0;
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .grade-perfis button {
+    flex-basis: calc(50% - 0.75rem);
+  }
+  .container {
+    padding: 1rem;
+  }
+}

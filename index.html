@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>CityConnect Cabo Frio | Guia inteligente gratuito</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- favicon opcional -->
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="assets/images/logo.svg" alt="CityConnect Cabo Frio" class="logo" onerror="this.src='https://placehold.co/200x60?text=CityConnect'">
+      <h1>Sua conexão inteligente com Cabo Frio</h1>
+      <p class="subtitulo">Sem app, sem custo, personalizado para você</p>
+    </header>
+
+    <!-- TELA DE PERFIS -->
+    <section id="tela-perfis">
+      <h2>Escolha seu perfil de viagem</h2>
+      <div class="grade-perfis">
+        <button data-perfil="familia">👨‍👩‍👧‍👦 Família</button>
+        <button data-perfil="economico">💰 Econômico</button>
+        <button data-perfil="premium">✨ Premium</button>
+        <button data-perfil="cristao">⛪ Cristão</button>
+        <button data-perfil="cultural">🎭 Cultural</button>
+        <button data-perfil="gastronomico">🍽️ Gastronômico</button>
+        <button data-perfil="pet">🐶 Pet friendly</button>
+        <button data-perfil="acessivel">♿ Acessível</button>
+        <button data-perfil="eventos">📊 Corporativo/Eventos</button>
+      </div>
+    </section>
+
+    <!-- DASHBOARD (inicialmente escondido) -->
+    <section id="dashboard" class="hidden">
+      <!-- aqui o JavaScript injeta o conteúdo personalizado -->
+    </section>
+
+    <footer>
+      <p>📱 Quer dicas no WhatsApp? <a href="https://wa.me/5522999999999?text=Quero%20receber%20roteiros%20de%20Cabo%20Frio" target="_blank">Entre no Clube CityConnect</a></p>
+      <small>Conteúdo gratuito – hotel parceiro: <span id="nome-hotel">Hotel Exemplo</span></small>
+    </footer>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
